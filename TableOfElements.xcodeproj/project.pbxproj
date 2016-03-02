@@ -13,6 +13,7 @@
 		815DD33A1C7B623F0047DC24 /* TableOfElements.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 815DD3381C7B623F0047DC24 /* TableOfElements.xcdatamodeld */; };
 		815DD33C1C7B623F0047DC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815DD33B1C7B623F0047DC24 /* Assets.xcassets */; };
 		815DD33F1C7B623F0047DC24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815DD33D1C7B623F0047DC24 /* LaunchScreen.storyboard */; };
+		81946B711C87963000743AF2 /* AboutVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81946B701C87963000743AF2 /* AboutVIewController.swift */; };
 		81C4DF431C86670A00373B9E /* TableOfElementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4DF421C86670A00373B9E /* TableOfElementsController.swift */; };
 		81C4DF461C86697A00373B9E /* periodicTable.json in Resources */ = {isa = PBXBuildFile; fileRef = 81C4DF451C86697A00373B9E /* periodicTable.json */; };
 		81C4DF501C868CDA00373B9E /* ElementsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4DF4F1C868CDA00373B9E /* ElementsCollectionViewCell.swift */; };
@@ -30,6 +31,7 @@
 		815DD33B1C7B623F0047DC24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815DD33E1C7B623F0047DC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		815DD3401C7B623F0047DC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81946B701C87963000743AF2 /* AboutVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVIewController.swift; sourceTree = "<group>"; };
 		81C4DF421C86670A00373B9E /* TableOfElementsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOfElementsController.swift; sourceTree = "<group>"; };
 		81C4DF451C86697A00373B9E /* periodicTable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = periodicTable.json; sourceTree = "<group>"; };
 		81C4DF4F1C868CDA00373B9E /* ElementsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementsCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				81C4DF421C86670A00373B9E /* TableOfElementsController.swift */,
 				81C4DF4F1C868CDA00373B9E /* ElementsCollectionViewCell.swift */,
 				81EFAC351C86C5970041D27C /* DetailViewController.swift */,
+				81946B701C87963000743AF2 /* AboutVIewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81946B711C87963000743AF2 /* AboutVIewController.swift in Sources */,
 				81C4DF501C868CDA00373B9E /* ElementsCollectionViewCell.swift in Sources */,
 				815DD33A1C7B623F0047DC24 /* TableOfElements.xcdatamodeld in Sources */,
 				815DD3341C7B623F0047DC24 /* ViewController.swift in Sources */,

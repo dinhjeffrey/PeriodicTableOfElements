@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-// FROM https://stackoverflow.com/a/33397427
+// FROM: https://stackoverflow.com/a/33397427
 extension UIColor {
     convenience init(hexString: String) {
         let hex = hexString.stringByTrimmingCharactersInSet(NSCharacterSet.alphanumericCharacterSet().invertedSet)
